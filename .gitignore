@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+.env
+.env.local
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.blg
+*.fls
+*.out
+*.toc
+*.lof
+*.lot
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.run.xml
+*.bcf
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# Generated PDFs
+# Uncomment the next line if you want to ignore the PDF output
+# *.pdf
+
+# LaTeX editor temporary files
+*.backup
+*~[0-9]*
