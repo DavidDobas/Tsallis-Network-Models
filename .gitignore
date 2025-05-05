@@ -66,3 +66,6 @@ Thumbs.db
 # LaTeX editor temporary files
 *.backup
 *~[0-9]*
+
+# Custom
+data/
