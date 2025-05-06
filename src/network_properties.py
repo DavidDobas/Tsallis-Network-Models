@@ -26,6 +26,5 @@ def average_property_over_degree(degrees, property_values, max_degree=None):
             averaged_values[degree] += property_value
             degree_hist[degree] += 1
     averaged_values[degree_hist == 0] = np.nan
-    # degree_hist[degree_hist==0] = 1
     averaged_values = averaged_values/degree_hist
-    return averaged_values, degree_hist
+    return averaged_values
